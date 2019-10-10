@@ -1,18 +1,48 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=gb2312">
-<title>HTML</title>
-<style>
-body
-{
-background:"white";
-font-family:"宋体";
-font-size:20px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Portfolio Site</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<b>我</b>    <i>的</i><b><u>第</u></b>一个<br>HTML程序
+    <div id="container">
+        <header class="clearfix" id="header">
+            <a href="#">
+                <img src="images/udacity-logo.png" alt="Udacity Logo" id="logo">
+            </a>
+            <div id="title">
+                <h1>JANE DOETTE</h1>
+                <p>FRONT-END NINJA</p>
+            </div>
+        </header>
+        <img src="images/hero.png" alt="Coding" id="hero-image">
+        <article id="list">
+            <h2>Featured Work</h2>
+            <div class="clearfix">
+                <div class="list-item">
+                    <img src="images/appify.jpg" alt="appify ">
+                    <h3>APPIFY</h3>
+                    <a href="https://www.github.com/udacity/appify/">https://www.github.com/udacity/appify/</a>
+                </div>
+                <div class="list-item">
+                    <img src="images/sunflower.jpg" alt="appify ">
+                    <h3>SUNFLOWER</h3>
+                    <a href="https://www.github.com/udacity/sunflower/">https://www.github.com/udacity/sunflower/</a>
+                </div>
+                <div class="list-item">
+                    <img src="images/brokeh.jpg" alt="appify ">
+                    <h3>BROKEH</h3>
+                    <a href="https://www.github.com/udacity/brokeh/">https://www.github.com/udacity/brokeh/</a>
+                </div>
+                <div class="list-item">
+                    <img src="images/windows.jpg" alt="windows ">
+                    <h3>WINDOWS</h3>
+                    <a href="https://www.github.com/udacity/brokeh/">https://www.github.com/udacity/windows/</a>
+                </div>
+            </div>
+        </article>
+    </div>
 </body>
 </html>
-注意：空格用：& nbsp ; 表示（符号间无空格）。
